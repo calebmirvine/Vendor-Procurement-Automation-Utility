@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Business Impact & ROI
+## Business Impact & ROI
 
 In typical procurement workflows, maintaining accurate pricing for hundreds of SKUs is a labor-intensive manual process. This solution transforms that friction into efficiency:
 
@@ -14,7 +14,7 @@ In typical procurement workflows, maintaining accurate pricing for hundreds of S
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 This project demonstrates a robust application of modern Python patterns and enterprise-standard data handling.
 
@@ -25,7 +25,7 @@ This project demonstrates a robust application of modern Python patterns and ent
 
 ---
 
-## 📊 Workflow Architecture
+##  Workflow Architecture
 
 ```mermaid
 graph TD
@@ -46,19 +46,6 @@ graph TD
 1.  **Extract:** Python scripts utilize custom semaphores to batch-pull live data from RESTful vendor APIs without exceeding rate limits.
 2.  **Automate:** Power Automate Desktop monitors for output, instantly syncing results to centralized business intelligence layers.
 3.  **Analyze:** Automated data appending creates a historical baseline for year-over-year pricing and inventory volatility analysis.
-
----
-
-## ⚙️ How to Deploy (Quick Start)
-
-1.  **Environment Setup:**
-    ```bash
-    pip install pandas httpx python-dotenv
-    ```
-2.  **Configuration:**
-    Populate a `.env` file with your `REMOTE_BASE_URL` and API credentials (see `.env.example`).
-3.  **Execution:**
-    Run `python v2csv.py` to trigger the pipeline and generate the latest `export.csv` report.
 
 ---
 > **Compliance & Privacy:** To protect corporate IP, all proprietary vendor branding, endpoints, and authentication schemas have been externalized to local environment variables.
